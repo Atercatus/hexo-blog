@@ -1220,6 +1220,11 @@
   "resolved" "http://cui.devel.kakao.com/prelude-ls/-/prelude-ls-1.1.2.tgz"
   "version" "1.1.2"
 
+"prettier@^2.6.2":
+  "integrity" "sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew=="
+  "resolved" "http://cui.devel.kakao.com/prettier/-/prettier-2.6.2.tgz"
+  "version" "2.6.2"
+
 "pretty-hrtime@^1.0.3":
   "integrity" "sha1-t+PqQkNaTJsnWdmeDyAesZWALuE="
   "resolved" "http://cui.devel.kakao.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz"
