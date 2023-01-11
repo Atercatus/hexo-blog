@@ -5,7 +5,8 @@
 # Site
 title: Cattus
 subtitle: ''
-description: ''
+# TODO(cattus-cur): description 추가
+description: 'asd'
 keywords:
 author: cattus
 language: kr
@@ -13,8 +14,8 @@ timezone: 'Asia/Seoul'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://atercatus.github.io/
-permalink: :category/:year-:month-:day-:title/
+url: https://atercatus.github.io
+permalink: :category/:year-:month-:day-:title.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -66,7 +67,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: non
 category_map:
 tag_map:
 
@@ -98,7 +99,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: simple
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -107,3 +108,6 @@ deploy:
   repo: https://github.com/Atercatus/Atercatus.github.io
   branch: master
   # message: [ message ]
+
+theme_config:
+  colorscheme: white

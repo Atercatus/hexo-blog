@@ -1,9 +1,13 @@
 ---
-title: Hello World 
+title: Hello World
 tags: [tag1, tag2]
+date: 2022-11-07 00:47:00
+layout: simple
+description: myDescription
 categories:
-- CAT1
+  - non2
 ---
+
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more
 info. If you get any problems when using Hexo, you can find the answer
 in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me
@@ -13,7 +17,7 @@ on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ### Create a new post
 
-``` bash
+```bash
 $ hexo new "My New Post"
 ```
 
@@ -21,15 +25,15 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
 
-``` bash
-$ hexo server
+```typescript
+const a = 10;
 ```
 
 More info: [Server](https://hexo.io/docs/server.html)
 
 ### Generate static files
 
-``` bash
+```bash
 $ hexo generate
 ```
 
@@ -37,7 +41,7 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 
 ### Deploy to remote sites
 
-``` bash
+```bash
 $ hexo deploy
 ```
 
