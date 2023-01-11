@@ -1,1 +1,43 @@
-this is the index.ejs file
+<div class="headline">
+  <h2>Posts</h2>
+  <p>Our latest news, updates, and stories for developers (문구수정)</p>
+</div>
+<div class="d-flex flex-justify-center .flex-items-center">
+  <div class="clearfix gutter-xl-spacious p-2">
+    <% page.posts.data.map(post => { %>
+      <% console.log(post) %>
+        <div class="card col-lg-6 float-left">
+          <article class="border">
+            <a href="<%= post.permalink %>">
+              <div class="card__content">
+                <h2 class="card__header">
+                  <%= post.title %>
+                </h2>
+                <p><%= post.description %></p>
+              </div>
+              <div class="card__tags">
+                <% post.tags.data.map(tag => { %>
+                  <a href="<%= tag.permalink %> "><%= tag.name %></a>
+                <% }) %>
+              </div>
+            </a>
+          </article>
+        </div>
+      <% }) %>
+  </div>
+</div>
+
+<!-- <div class="gutter-md-spacious border">
+  <div class="col-3 float-left">
+    <div class="border p-3">.col-md-3</div>
+  </div>
+  <div class="col-3 float-left">
+    <div class="border p-3">.col-md-3</div>
+  </div>
+  <div class="col-3 float-left">
+    <div class="border p-3">.col-md-3</div>
+  </div>
+  <div class="col-3 float-left">
+    <div class="border p-3">.col-md-3</div>
+  </div>
+</div> -->
