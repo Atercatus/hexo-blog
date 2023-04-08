@@ -5,7 +5,6 @@
 # Site
 title: Cattus
 subtitle: ''
-# TODO(cattus-cur): description 추가
 description: "I'm cattus"
 keywords:
 author: cattus
@@ -41,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -111,3 +110,13 @@ deploy:
 
 theme_config:
   colorscheme: white
+
+# sitemap
+sitemap:
+  path:
+    - sitemap.xml
+  # template: ./sitemap_template.xml
+  # template_txt: ./sitemap_template.txt
+  # rel: false
+  # tags: true
+  # categories: true
